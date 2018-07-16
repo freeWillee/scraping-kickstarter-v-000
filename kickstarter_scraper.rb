@@ -11,5 +11,7 @@ def create_project_hash
   binding.pry
 
   # projects: kickstarter.css("li.project.grid_4")
+  # titles: project.css("h2.bbcard_name strong a").text
+  # image link: project.css("div.project-thumbnail a img").attribute("src").value
 end
 create_project_hash
